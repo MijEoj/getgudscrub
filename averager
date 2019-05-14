@@ -1,0 +1,21 @@
+var numOfGrades = readInt("How many classes do you currently take?"))
+
+function start(){
+  numOfGrades();
+
+}
+
+function Agrades(){
+  var addgrade = [];
+  for (var i=0;i< numOfGrades; i++){
+    var x = readInt("What is your " + i + "grade.")
+    addgrade.push(x)
+  }
+  var l = addgrade.length;
+  var sum = 0
+  for(var i = 0; i < l; i++){
+    sum += parseInt(addgrade[i], 10)
+  }
+  var average = sum/l
+  println("Your Average is: " + average)
+}
