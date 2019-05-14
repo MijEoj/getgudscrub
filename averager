@@ -2,7 +2,7 @@ var numOfGrades = readInt("How many classes do you currently take?"))
 
 function start(){
   numOfGrades();
-
+  Agrades();
 }
 
 function Agrades(){
