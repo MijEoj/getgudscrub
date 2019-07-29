@@ -1,2 +1,1 @@
-# getgudscrub
-Fuck you olaf
+Learning C++
